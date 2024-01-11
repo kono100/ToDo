@@ -24,7 +24,13 @@ namespace ToDo.Data
                         },
                         new Tarefa()
                         {
-                            Name = "Criar bando de Dados",
+                            Name = "Criar as info",
+                            EndDate = DateTime.Now.AddDays(60),
+                            Status = false
+                        },
+                        new Tarefa()
+                        {
+                            Name = "Criar banco de Dados",
                             EndDate = DateTime.Now.AddDays(5),
                             Status = false
                         },
